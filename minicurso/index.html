@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Minicurso Claude - brief a entrega (PIX)</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.5}
+.card{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:1rem 0;background:#fafafa}
+.price{font-size:1.2rem;font-weight:700}
+img{max-width:200px}
+textarea{width:100%;font-size:11px}
+a{color:#06c}
+</style>
+</head>
+<body>
+<h1>Minicurso pratico: do brief a entrega com Claude</h1>
+<p>Landing nova (produto aparte do ebook PDF). 4 aulas curtas + pack de prompts. PIX LUIZ.</p>
+
+<div class="card">
+<h2>Aula 1 - Brief</h2>
+<p>Objetivo, publico, tom, formato, fora de escopo. Sem brief claro, Claude improvisa.</p>
+</div>
+<div class="card">
+<h2>Aula 2 - Free vs Pro</h2>
+<p>Free = pontual. Pro = rotina. Confirme em <a href="https://claude.com/pricing">claude.com/pricing</a>.</p>
+</div>
+<div class="card">
+<h2>Aula 3 - Revisao</h2>
+<p>Fatos, tom, CTA, secrets. Voce edita; Claude acelera.</p>
+</div>
+<div class="card">
+<h2>Aula 4 - Entrega paga</h2>
+<p class="price">R$50 peca · R$100 peca+revisao</p>
+<p>Escrita longa, analise ou codigo cuidadoso via claude.ai.</p>
+<p><a href="../claude-free-ebook-minicurso.pdf">Baixar ebook PDF</a> · <a href="prompt-pack.md">Pack de prompts</a></p>
+</div>
+
+<div class="card">
+<h3>PIX R$50 (tag54=50.00)</h3>
+<img src="../qr-r50.png" alt="PIX 50"/>
+<textarea readonly rows="3">EOF
+cat /workspace/revenue-missions/claude/gist-public/pix-r50.txt >> /workspace/revenue-missions/claude/pages/minicurso/index.html
+cat >> /workspace/revenue-missions/claude/pages/minicurso/index.html << 'EOF'
+</textarea>
+</div>
+<div class="card">
+<h3>PIX R$100 (tag54=100.00)</h3>
+<img src="../qr-r100.png" alt="PIX 100"/>
+<textarea readonly rows="3">EOF
+cat /workspace/revenue-missions/claude/gist-public/pix-r100.txt >> /workspace/revenue-missions/claude/pages/minicurso/index.html
+cat >> /workspace/revenue-missions/claude/pages/minicurso/index.html << 'EOF'
+</textarea>
+<p><a href="https://gist.github.com/Ziuluiziul/50f3d90ca639fb5bb56c23b280b87e40">Gist</a> · <a href="https://ziuluiziul.github.io/round1-cumulunimbus/">Hub</a></p>
+</div>
+</body>
+</html>
